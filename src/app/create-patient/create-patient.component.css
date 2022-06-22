@@ -1,0 +1,17 @@
+#btn{
+    padding:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#btn:hover{
+    background-color: rgb(178, 178, 224);
+    border-bottom: 10px;
+}
+#btn:active
+{
+    background-color: blue;
+}
+label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,46 @@
+#btn
+{
+    margin-left: 20px;
+    font-weight: bolder;
+    padding:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    color:rgb(18, 17, 19);
+    background-color: rgb(212, 238, 238);
+    border-radius: 10px;
+    border: 1px solid black;
+   
+}
+#btn:hover
+{
+    background-color: blue;
+    
+}
+#btn:active{
+    box-shadow: 5px 0px 5px blue;
+}
+
+.s
+{
+    border:0px;
+    outline: 0px;
+    margin-left: 5px;
+   background: transparent;
+}
+#suk
+{
+  
+    margin-left: 5px;
+   background: transparent;
+}
+
+td{
+    padding: 10px;
+}
+
+label{
+    font-style: italic;
+   font-weight: bold;
+}
+
+

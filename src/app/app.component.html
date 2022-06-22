@@ -1,0 +1,31 @@
+
+<div id="mydiv">
+
+  <h1>Welcomme to "Apollo" Hospital</h1>
+
+</div>
+<hr>
+
+ 
+  <nav class="nav " style="margin-top:px;">
+    
+    <li class="nav-item">
+      <a class="nav-link active" [routerLink]="['/home']"><input type="button" id="suk" class="btns" value="HOME"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" [routerLink]="['/create-doctor']"><input type="button" class="btns" value="Add New Doctor"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" [routerLink]="['/create-patient']"><input type="button" class="btns" value="Add New Patient"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" [routerLink]="['/show-doctor']"><input type="button" class="btns" value="Doctor Information"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" [routerLink]="['/show-patient']"><input type="button" class="btns" value="Patient Information"></a>
+    </li>
+    
+    </nav>
+
+    <router-outlet ></router-outlet>
+  

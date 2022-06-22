@@ -1,0 +1,17 @@
+#s
+{
+    background: transparent;
+}
+.ip
+{
+    background: transparent;
+}
+#btn:hover
+{
+   background-color: rgb(137, 137, 228);
+   border-bottom: 3px;
+}
+#btn:active
+{
+  background-color: blue;
+}
